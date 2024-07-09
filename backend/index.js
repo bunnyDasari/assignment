@@ -8,9 +8,7 @@ const app = express();
 const port = 7000
 
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
-});
+
 
 const db = admin.firestore();
 
