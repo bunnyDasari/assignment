@@ -6,7 +6,7 @@ To run the Backend
 
 install the dependencies and start server with nodemon or node index.js
 
-see the output in (http://localhost:7000/)
+see the output in (http://localhost:7000//submit)
 
 to store the data in firebase the react server and node server should be running locally
 
