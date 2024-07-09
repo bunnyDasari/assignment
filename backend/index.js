@@ -1,16 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const admin = require('firebase-admin');
+
 
 
 const app = express();
 const port = 7000
 
 
-
-
-const db = admin.firestore();
 
 app.use(cors());
 app.use(bodyParser.json());
